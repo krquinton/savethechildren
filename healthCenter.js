@@ -225,5 +225,21 @@ var healthCenterData = {
           14.767923
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": "15",
+        "type": "Health Center",
+        "barangay": "Barangay 176",
+        "name": "Barangay 176 Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.062247,
+          14.775372
+        ]
+      }
     }
     ]}
