@@ -241,5 +241,21 @@ var healthCenterData = {
           14.775372
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": "16",
+        "type": "Health Center",
+        "barangay": "Barangay 174",
+        "name": "Brgy 174 Camarin Health Center and Lying In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.047654,
+          14.762584
+        ]
+      }
     }
     ]}
