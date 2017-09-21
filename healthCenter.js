@@ -85,22 +85,6 @@ var healthCenterData = {
         {
       "type": "Feature",
       "properties": {
-        "id": "6",
-        "type": "Health Center",
-        "barangay": "Barangay 174",
-        "name": "Barangay 174 Health Center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.048142,
-          14.762178
-        ]
-      }
-    },
-        {
-      "type": "Feature",
-      "properties": {
         "id": "7",
         "type": "Health Center",
         "barangay": "Barangay 178",
