@@ -85,6 +85,22 @@ var healthCenterData = {
         {
       "type": "Feature",
       "properties": {
+        "id": "6",
+        "type": "Health Center",
+        "barangay": "Barangay 174",
+        "name": "Barangay 174 Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.048142,
+          14.762178
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
         "id": "7",
         "type": "Health Center",
         "barangay": "Barangay 178",
@@ -223,22 +239,6 @@ var healthCenterData = {
         "coordinates": [
           121.062247,
           14.775372
-        ]
-      }
-    },
-        {
-      "type": "Feature",
-      "properties": {
-        "id": "16",
-        "type": "Health Center",
-        "barangay": "Barangay 174",
-        "name": "Brgy 174 Camarin Health Center and Lying In"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.047654,
-          14.762584
         ]
       }
     }
