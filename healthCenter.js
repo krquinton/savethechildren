@@ -8,13 +8,13 @@ var healthCenterData = {
         "id": "1",
         "type": "Health Center",
         "barangay": "Barangay 176",
-        "name": "Barangay 176 Health Center"
+        "name": "Bagong Silang Phase 9 Health Center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.056475,
-          14.756943
+          121.037263,
+          14.780115
         ]
       }
     },
@@ -24,7 +24,7 @@ var healthCenterData = {
         "id": "2",
         "type": "Health Center",
         "barangay": "Barangay 171",
-        "name": "Barangay 171 Health Center"
+        "name": "Bagumbong Dulo"
       },
       "geometry": {
         "type": "Point",
@@ -45,8 +45,8 @@ var healthCenterData = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.049623,
-          14.746905
+          121.049618,
+          14.748603
         ]
       }
     },
@@ -56,7 +56,7 @@ var healthCenterData = {
         "id": "4",
         "type": "Health Center",
         "barangay": "Barangay 168",
-        "name": "Deparo 176 Health Center"
+        "name": "Deparo Health Center"
       },
       "geometry": {
         "type": "Point",
@@ -199,14 +199,14 @@ var healthCenterData = {
       "properties": {
         "id": "13",
         "type": "Health Center",
-        "barangay": "Barangay 176",
-        "name": "Barangay 176 Health Center"
+        "barangay": "Barangay 177",
+        "name": "Parkland Health Center"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.038153,
-          14.783864
+          121.055748,
+          14.746850
         ]
       }
     },
@@ -232,7 +232,7 @@ var healthCenterData = {
         "id": "15",
         "type": "Health Center",
         "barangay": "Barangay 176",
-        "name": "Barangay 176 Health Center"
+        "name": "Bagong Silang Phase 7"
       },
       "geometry": {
         "type": "Point",
