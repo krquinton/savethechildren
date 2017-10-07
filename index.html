@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
 
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/leaflet.awesome-markers.css">
+    <script src="dist/leaflet.awesome-markers.js"></script>
 
     <script src="healthCenter.js"></script>
 
@@ -152,11 +155,12 @@
 			return 
 
 		}
+        //Hospital Icon
 
-		//Health Centers - directed to jollibee.js
+		//Health Centers - directed to HealthCenter.js
 		var healthCenter = L.geoJson(healthCenterData, {
     			pointToLayer: function (feature, latlng) {
-        var marker = L.marker([latlng.lat, latlng.lng]);
+        var marker = L.marker([latlng.lat, latlng.lng],{icon: L.AwesomeMarkers.icon({icon: 'medkit', prefix: 'fa', markerColor: 'darkblue'}) });
 
         var content = '<table>';
         var keys = Object.keys(feature.properties);
@@ -236,7 +240,6 @@
 		info.addTo(map);
 
 		L.control.layers(baseMaps, overlayMaps).addTo(map);
-		
 
 		</script>
   </body>
